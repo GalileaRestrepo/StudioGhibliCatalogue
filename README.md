@@ -13,8 +13,8 @@ It demonstrates the **Model–View–ViewModel (MVVM)** pattern and includes:
 ## API
 The app consumes the **Studio Ghibli API**:  
 👉 [Films endpoint](https://ghibliapi.vercel.app/films)
----
-## 🚀 How to run the app
+
+## How to run the app
 
 ### Requirements
 - **Xcode 15 (or later)**
@@ -29,7 +29,6 @@ The app consumes the **Studio Ghibli API**:
 
 The app will launch in the simulator and fetch films from the Studio Ghibli API.
 
-----
 ## Notes
 
 This project was built for a coursework assignment to demonstrate:
