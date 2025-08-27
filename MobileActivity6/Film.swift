@@ -24,5 +24,8 @@ struct Film: Identifiable, Codable, Hashable {
     let movie_banner: String? // URL string
 }
 
-
+    
+    enum CodingKeys : String, CodingKey {
+        case title, original_title, original_title_romanised, description, director, producer, release_date, running_time, rt_score, image, movie_banner
+    }
 
