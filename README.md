@@ -30,9 +30,7 @@ The app consumes the **Studio Ghibli API**:
 The app will launch in the simulator and fetch films from the Studio Ghibli API.
 
 ## Notes
-
 This project was built for a coursework assignment to demonstrate:
-
 - SwiftUI layout
 - Async/await for API calls
 - MVVM architecture

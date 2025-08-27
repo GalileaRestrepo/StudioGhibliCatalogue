@@ -78,7 +78,7 @@ struct ContentView: View {
                 Text(message)
                     .multilineTextAlignment(.center)
                     .foregroundStyle(.secondary)
-                Button("Retry") { Task { await vm.fetchFilms() } } // No crash, safe retry
+                Button("Retry") { Task { await vm.fetchFilms() } } // No crash
                     .buttonStyle(.borderedProminent)
             }
             .padding()
